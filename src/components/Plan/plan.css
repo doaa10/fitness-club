@@ -1,0 +1,108 @@
+.plan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.plan-title{
+    margin: 20px 10px;
+}
+.plan-title span{
+font-size: 45px;
+text-transform:uppercase;
+font-family: Arial, Helvetica, sans-serif;
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff;
+color: transparent;
+}
+.plan-title span:nth-child(2){
+    color: #fff;
+    font-weight: 700;
+    margin: 40px;
+   
+}
+.plan .plansPac{
+    margin: 40px 10px;
+    display: flex;
+   gap: 100px;
+}
+.plan .plansPac .plan-card{
+    padding: 50px 30px;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+.plansPac .plan-card:nth-child(1),.plan-card:nth-child(3){
+    background-color: var(--appColor);
+}
+.plansPac .plan-card:nth-child(2){
+    background-color: var(--orange);
+}
+.plansPac .plan-card:nth-child(2){
+    transform: scale(1.1);
+}
+.plansPac .plan-card:nth-child(2):hover{
+    transform: scale(1.15);
+}
+.plansPac .plan-card:nth-child(1):hover,.plan-card:nth-child(3):hover{
+    transform: scale(1.05);
+}
+.plan-card .info-plan{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    
+}
+.plan-card .info-plan span:nth-child(1){
+    font-size: 18px;
+    font-weight: 200;
+}
+.plan-card .info-plan span:nth-child(2){
+    font-size: 35px;
+    margin-top: 13px;
+    color: #fff;
+    font-weight: 800;
+}
+.plan .plan-card ul{
+    list-style: none;
+}
+.plan .plan-card ul li {
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 17px;
+    justify-content: flex-start;
+}
+.plan .plan-card ul li img{
+    width: 20px;
+    margin-right: 15px;
+}
+.plan-card:nth-child(1) .plan-btn{
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 28%;
+}
+
+.plan-card:nth-child(3) .plan-btn{
+    background-color: transparent;
+    border: 2px solid var(--orange);
+    padding: 10px 25px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 32%;
+}
+.plan-card:nth-child(2) .plan-btn{
+    background-color: #fff;
+   border: none;
+    padding: 10px 25px;
+    color: var(--appColor);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 30%;   
+}

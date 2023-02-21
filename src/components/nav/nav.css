@@ -1,0 +1,31 @@
+.nav{
+    padding: 15px 10px;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.logo img{
+    width: 180px;
+}
+.links ul{
+    display: flex;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.links ul li{
+    padding-left: 25px;
+    
+}
+.links ul li a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 15px;
+}
+.links ul li a:hover{
+    color: var(--orange);
+}

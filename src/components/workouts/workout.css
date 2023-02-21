@@ -1,0 +1,123 @@
+.workouts{
+    width: 100%;
+    padding: 30px 0px;
+    align-items: center;
+    text-align: center;
+}
+.workouts .workout-title{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.workout-title span{
+    color: #fff;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:40px;
+    font-weight: 700;
+}
+.workout-title .strok{
+    color: transparent;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--orange);
+    font-size: 40px;
+}
+
+.workouts .search-ex{
+    margin: 10px;
+}
+.workouts .search-ex input{
+    width: 800px;
+    padding: 20px;
+    border: 2px solid var(--orange);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.workouts .search-ex button{
+    padding: 20px 40px;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--orange);
+    border: none;
+}
+.workouts .bodyparts{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    row-gap: 25px;
+    column-gap: 25px;
+    margin: 10px 15px;
+
+}
+.workouts .bodyparts .body-container{
+    background:transparent; 
+    backdrop-filter: blur(5px); 
+color: #fff;
+font-weight: 500;
+border: 2px solid var(--orange);
+width: 150px;
+padding: 40px 20px;
+font-size: 18px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 15px;
+}
+.workouts .bodyparts .body-container:hover{
+   transform:scale(1.1);
+   transition: .2s ease-in;
+}
+.workouts .bodyparts .body-container img{
+    width: 30px;
+}
+.workouts .exercises{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.workouts .exercises .cardEx {
+   display: flex;
+   flex-direction: column;
+   width: 300px;
+   justify-content: center;
+   border: 2px solid var(--orange);
+   padding-bottom:20px ;
+   background:transparent; 
+   backdrop-filter: blur(5px); 
+   color: #fff;
+   
+}
+.workouts .exercises .cardEx img{
+    width: 100%;
+}
+.workouts .exercises .cardEx .ex-btns {
+   display: flex;
+   gap: 15px;
+   justify-content: center;
+   margin: 10px;
+}
+.workouts .exercises .cardEx button{
+    background-color: var(--orange);
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+
+}
+.workouts .exercises .ex-tit{
+    font-size: 40px;
+    font-weight: 700;
+    padding: 20px;
+    color: transparent;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    
+    
+}

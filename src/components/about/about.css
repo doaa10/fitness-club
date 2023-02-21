@@ -1,0 +1,175 @@
+.about{
+    width: 100%;
+    position: relative;
+   
+}
+.about .about-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.about .about-header>span{
+    padding: 10px;
+}
+.about .about-header .ash{
+    color: transparent;
+    font-size: 50px;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+.about .about-header .ah{
+    color: #fff;
+    font-weight: 600;
+    margin: 30px;
+    font-size: 50px;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about .programs{
+    margin: 20px 5px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.about .programs .program-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #808080;
+    padding: 35px 25px;
+    color: #fff;
+ 
+
+}
+.about .programs .program-container:hover{
+    background: var(--planCard);
+}
+.about .programs .program-container .card-tit{
+    color: #fff;
+    font-size: 18px;
+    margin: 12px 0px;
+    font-weight: 600;
+}
+.about .programs .program-container .card-para{
+   font-size: 14px;
+   line-height: 25px;
+   letter-spacing: 1px;
+
+}
+.about .programs .program-container .join{
+    display: flex;
+    margin-top: 15px;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+.about .programs .program-container .join img {
+    width: 18px;
+    height: 20px;
+
+}
+.about .about-goals{
+    margin-top: 80px;
+}
+.about .about-goals .goals-head{
+    margin: 10px 50px;
+
+}
+.about .about-goals .goals-head .strik{
+    color: transparent;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: .9px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 50px;
+}
+.about-goals .goals-head .normal{
+    font-size: 50px;
+    padding: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.about .about-goals .goal-cont{
+    display: flex;
+    justify-content: space-between;
+}
+.goal-cont .goal-left .l-images{
+    margin: 15px 45px;
+display: flex;
+gap: 15px;
+}
+.goal-cont .goal-left .l-images img:nth-child(1){
+    width: 280px;
+}
+.goal-cont .goal-left .l-images img:nth-child(2){
+    width: 280px;
+}
+.goal-cont .goal-left .l-images>img{
+    border-radius: 40%;
+}
+.goal-cont .goal-left .goals-text{
+    margin: 8px 20px;
+    
+}
+.goal-cont .goal-left .goals-text p {
+    color: #fff;
+    opacity: .8;
+    font-size: 15px;
+    letter-spacing: .5px;
+    font-weight: 300;
+
+}
+.goal-cont .goal-right{
+    margin-top: 15px;
+}
+.goal-cont .goal-right img{
+    width: 550px;
+}
+
+.goal-right .trans {
+    position: absolute;
+    top:  90%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.158); 
+    backdrop-filter: blur(8px); 
+    display: flex;
+    padding: 13px 20px;
+    align-items: center;
+    gap: 200px;
+    
+}
+.goal-right .trans span{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 7px;
+}
+.goal-right .trans button{
+    background-color: var(--orange);
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    display: flex;
+     gap: 10px;    
+    
+}
+.goal-right .trans button span a {
+    text-decoration: none;
+    color: #fff;
+}
+.goal-cont .goal-right .trans button:hover{
+    opacity: .8;
+}
+.goal-right .trans button span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.goal-right .trans button .icon{
+    width: 25px;
+    font-size: 30px;
+    
+}

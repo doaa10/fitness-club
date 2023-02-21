@@ -1,0 +1,68 @@
+.bmi{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 60px;
+    padding: 20px 40px;
+    text-align: center;
+    border: 2px solid var(--orange);
+}
+.bmi h1{
+    font-size: 45px;
+    color: transparent;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--orange);
+}
+.bmi .container{
+    width: 40%;
+    margin-left: 30%;
+}
+.bmi .container form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+.bmi .container form input{
+    background: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    border: none;
+    
+ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+    padding: 10px 35px;
+    
+}
+.bmi .container label{
+    color: var(--lightgray);
+    font-size:18px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+.bmi .container button{
+    margin-top: 15px;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: var(--orange);
+    border: none;
+}
+.bmi .container button:hover{
+    opacity: .9;
+}
+.bmi .res{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 17px;
+    color: #fff;
+    gap: 50px;
+    font-weight: 500;
+}
