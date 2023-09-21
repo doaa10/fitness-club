@@ -2,9 +2,9 @@
 # Fitness Club Website
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## About The App
+# About The App
 
-The Fitness Club Website is an online platform that provides users with access to various types of workouts and tools to calculate their Body Mass Index (BMI). Additionally, users can become members of the fitness club by filling out a membership form.
+The Fitness Club Website is an online platform that provides users with access to various types of workouts and tools to calculate their Body Mass Index (BMI). Additionally, users can become members of the fitness club by filling out a membership form
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Features
@@ -38,10 +38,8 @@ Start the development server:
 npm start
 Open your web browser and visit http://localhost:3000 to access the Fitness Club Website.
 
-# Contributing
+# Contributing 
 If you'd like to contribute to the development of this project, please follow these steps:
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 Fork the repository on GitHub.
 Create a new branch for your feature or bug fix: git checkout -b feature-name.
 Make your changes and commit them: git commit -m 'Add some feature'.
