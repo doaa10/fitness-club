@@ -17,7 +17,7 @@ The Fitness Club Website is an online platform that provides users with access t
 
 ## Technologies Used
 
-- **Frontend**:React, HTML, CSS, JavaScript
+- **Frontend**:React.js
 - **Fetch APIs**: Utilized Fetch APIs for handling data retrieval and interactions with external services.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
